@@ -6,7 +6,7 @@ In dieser Übung soll ein einfacher Webserver mit Python und Flask implementiert
 
 Klonen Sie dieses Repository mit 
 
-    git clone https://github.com/ib-fhgr/flask-uebung.git
+    git clone https://github.com/fhgr-stud/pro2-flask-uebung.git
 
 ## Aufgabenstellung
 
