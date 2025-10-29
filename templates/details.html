@@ -9,12 +9,15 @@
     <h1>{{ produkt.name }}</h1>
     
     <!-- TODO Preis anzeigen -->
+    <p><strong>Preis:</strong> {{ produkt.preis }} CHF</p>
     
     <!-- TODO Bild anzeigen -->
+    <img src="{{ produkt.bild }}" alt="{{ produkt.name }}">
 
     <hr>
     
     <!-- TODO Link zurück zur Startseite -->
+    <a href="/">Zurueck zur Startseite</a>
     
     <style>
         .img {

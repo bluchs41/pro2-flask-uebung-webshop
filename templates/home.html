@@ -12,11 +12,14 @@
     {% for id, produkt in produkte.items() %}
     
         <!-- TODO: Hier eine Tabellen-Zeile einfügen (tr) -->
-        
-        <!-- TODO: In die Zeile zwei Spalten einfügen (td):
+        <tr >
+            <!-- TODO: In die Zeile zwei Spalten einfügen (td):
             Name des Produkts, verlinkt auf die Detailseite,
-            Preis des Produkts
-         -->
+            Preis des Produkts-->
+            <td><a href="/produkt/{{ id }}">{{ produkt.name }}</a></td>
+            <td>{{ produkt.preis }} CHF</td>
+        </tr>
+        
     
     {% endfor %}
     </table>
